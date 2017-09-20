@@ -1,0 +1,63 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage{graphicx}
+\begin{table}[]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\textbf{Problem Type} & \textbf{Objectives} & \textbf{Continuous Variables} & \textbf{Binary Variables} & \textbf{Constraints} & \textbf{Instances} & \textbf{Source} \\ \hline
+\multirow{5}{*}{\textbf{Biobjective Mixed Binary Program}} & \multirow{8}{*}{2} & 10 & 10 & 20 & \multirow{5}{*}{5} & \multirow{8}{*}{Triangle Splitting Method Paper} \\ \cline{3-5}
+ &  & 20 & 20 & 40 &  &  \\ \cline{3-5}
+ &  & 40 & 40 & 80 &  &  \\ \cline{3-5}
+ &  & 80 & 80 & 160 &  &  \\ \cline{3-5}
+ &  & 160 & 160 & 320 &  &  \\ \cline{1-1} \cline{3-6}
+\multirow{3}{*}{\textbf{Biobjective Uncapacitated Facility Location Problem}} &  & 800 & 16 & 850 & \multirow{3}{*}{4} &  \\ \cline{3-5}
+ &  & 1250 & 25 & 1300 &  &  \\ \cline{3-5}
+ &  & 2500 & 50 & 2550 &  &  \\ \hline
+\multirow{10}{*}{\textbf{Multiobjective Assignment Problem}} & \multirow{10}{*}{3} & \multirow{26}{*}{0} & 25 & 10 & \multirow{23}{*}{10} & \multirow{26}{*}{Kirlik Instances. True Frontier provided by the authors on request} \\ \cline{4-5}
+ &  &  & 100 & 20 &  &  \\ \cline{4-5}
+ &  &  & 225 & 30 &  &  \\ \cline{4-5}
+ &  &  & 400 & 40 &  &  \\ \cline{4-5}
+ &  &  & 625 & 50 &  &  \\ \cline{4-5}
+ &  &  & 900 & 60 &  &  \\ \cline{4-5}
+ &  &  & 1225 & 70 &  &  \\ \cline{4-5}
+ &  &  & 1600 & 80 &  &  \\ \cline{4-5}
+ &  &  & 2025 & 90 &  &  \\ \cline{4-5}
+ &  &  & 2500 & 100 &  &  \\ \cline{1-2} \cline{4-5}
+\multirow{16}{*}{\textbf{Multiobjective 1-Dimensional Knapsack Problems}} & \multirow{10}{*}{3} &  & 10 & \multirow{16}{*}{1} &  &  \\ \cline{4-4}
+ &  &  & 20 &  &  &  \\ \cline{4-4}
+ &  &  & 30 &  &  &  \\ \cline{4-4}
+ &  &  & 40 &  &  &  \\ \cline{4-4}
+ &  &  & 50 &  &  &  \\ \cline{4-4}
+ &  &  & 60 &  &  &  \\ \cline{4-4}
+ &  &  & 70 &  &  &  \\ \cline{4-4}
+ &  &  & 80 &  &  &  \\ \cline{4-4}
+ &  &  & 90 &  &  &  \\ \cline{4-4}
+ &  &  & 100 &  &  &  \\ \cline{2-2} \cline{4-4}
+ & \multirow{4}{*}{4} &  & 10 &  &  &  \\ \cline{4-4}
+ &  &  & 20 &  &  &  \\ \cline{4-4}
+ &  &  & 30 &  &  &  \\ \cline{4-4} \cline{6-6}
+ &  &  & 40 &  & 5 &  \\ \cline{2-2} \cline{4-4} \cline{6-6}
+ & \multirow{2}{*}{5} &  & 10 &  & 10 &  \\ \cline{4-4} \cline{6-6}
+ &  &  & 20 &  & 9 &  \\ \hline
+\multirow{15}{*}{\textbf{Multiobjective Mixed Binary Programs}} & \multirow{5}{*}{3} & 40 & 40 & 80 & \multirow{15}{*}{5} & \multirow{15}{*}{Random Instances based on Triangle Splitting Method Paper} \\ \cline{3-5}
+ &  & 80 & 80 & 160 &  &  \\ \cline{3-5}
+ &  & 160 & 160 & 320 &  &  \\ \cline{3-5}
+ &  & 320 & 320 & 640 &  &  \\ \cline{3-5}
+ &  & 640 & 640 & 1280 &  &  \\ \cline{2-5}
+ & \multirow{5}{*}{4} & 40 & 40 & 80 &  &  \\ \cline{3-5}
+ &  & 80 & 80 & 160 &  &  \\ \cline{3-5}
+ &  & 160 & 160 & 320 &  &  \\ \cline{3-5}
+ &  & 320 & 320 & 640 &  &  \\ \cline{3-5}
+ &  & 640 & 640 & 1280 &  &  \\ \cline{2-5}
+ & \multirow{5}{*}{5} & 40 & 40 & 80 &  &  \\ \cline{3-5}
+ &  & 80 & 80 & 160 &  &  \\ \cline{3-5}
+ &  & 160 & 160 & 320 &  &  \\ \cline{3-5}
+ &  & 320 & 320 & 640 &  &  \\ \cline{3-5}
+ &  & 640 & 640 & 1280 &  &  \\ \hline
+\end{tabular}%
+}
+\caption{My caption}
+\label{my-label}
+\end{table}
